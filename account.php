@@ -1,4 +1,3 @@
-<!-- This file takes the user to the home page after a successful login through the google account-->
 <?php
 error_reporting(E_ALL);
 
@@ -9,6 +8,7 @@ if(!isset($_SESSION['google_data']))
 }
 ?>
 
+<!-- This file takes the user to the home page after a successful login through the google account-->
  
 <?php require_once('conn.php');
 ?>
